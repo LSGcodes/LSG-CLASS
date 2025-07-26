@@ -1,0 +1,84 @@
+/* Global settings */
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: white;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h1.LSG_Class {
+  margin-top: 40px;
+  font-size: 2.5em;
+  color: #ffffff;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 5px #000;
+}
+
+/* Form container */
+.sign_up {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  margin-top: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  width: 90%;
+  max-width: 400px;
+}
+
+/* Input labels */
+.sign_up label {
+  display: block;
+  margin: 15px 0 5px;
+  font-weight: 600;
+}
+
+/* Input fields */
+.sign_up input[type="text"],
+.sign_up input[type="email"],
+.sign_up input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  font-size: 1em;
+}
+
+/* Button styling */
+#submit {
+  margin-top: 25px;
+  width: 100%;
+  padding: 12px;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 1.1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#submit:hover {
+  background-color: #455746;
+}
+
+/* Responsive design */
+@media screen and (max-width: 500px) {
+  h1.LSG_Class {
+    font-size: 2em;
+  }
+
+  .sign_up {
+    padding: 20px;
+  }
+}
